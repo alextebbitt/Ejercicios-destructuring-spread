@@ -188,13 +188,13 @@ console.log(combineAllArrays2([3, 6, 7, 8],[2, 7, 3, 1]));
 //Escriba una función llamada sumAndSquare que reciba cualquier número de argumentos, 
 //los eleve al cuadrado y devuelva la suma de todos los valores cuadrados.
 
-//  const sumAndSquare = (...bumbers) => {
-//  const squaredNumbers = bumbers.map(bumbers ** bumbers)
-//  const finalfinal = squaredNumbers.reduce((a,b)=> a + b)
-//  return finalfinal; 
-//  }
+  const sumAndSquare = (...bumbers) => {
+  const squaredNumbers = bumbers.map(bumbers => bumbers ** 2)
+  const finalfinal = squaredNumbers.reduce((a,b)=> a + b)
+  return finalfinal; 
+  }
 
-//  console.log(sumAndSquare(1,2,3,4,5,6));
+  console.log(sumAndSquare(2,3));
 
 // const doubleandSquareandSum = arr => arr.reduce((a, num) => a + ((2 * num) ** 2), 0);
 
